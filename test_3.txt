@@ -1,0 +1,6 @@
+# Test with duplicate scale name
+
+b1, a2, B3
+a1, 10, 11
+b3, 15, A6
+a1, a12, b36

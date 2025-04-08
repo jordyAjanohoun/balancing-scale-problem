@@ -1,0 +1,3 @@
+# Test with negative mass.
+
+b1, -10, 0

@@ -1,0 +1,25 @@
+# Test with some chaotic but valid input.
+# other test
+
+
+####### ignore
+
+# B1,10,0
+
+# B1, B3, 11
+
+A1, A2, A3
+
+A2,  A4,A5
+A3,11,12
+
+# should ignore this
+
+A4,0,0
+A5, A6,7879
+A6, 99, 1
+
+# end with a comment and a bunch of empty lines at the end
+
+
+
