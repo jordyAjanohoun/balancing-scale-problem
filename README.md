@@ -26,7 +26,7 @@ These are the assumptions I've made and consider reasonable:
 
 ## Notes
 - I manually tested using the test files in this repo. Using a test framework like GTest or Catch2 and setting up automated tests (CI/CD) is better for real world projects. 
-- The runtime complexity is O(N) where N is the number of nodes because we traverse the tree 2 times. Once to parse the input file and store the tree as a map, and a second time to compute the masses we need to balance the tree.
-- The memory complexity is also O(N) because the data structures I use store no more than N elements where N is the number of nodes in the tree.
+- The runtime complexity is `O(N + N*log(N))` where N is the number of nodes because we traverse the tree 2 times and we sort the output. The first traversal is when we parse the input file to store the tree as a map. The second one is to compute the masses we need to balance the tree.
+- The memory complexity is `O(N)` because the data structures I use store no more than N elements where N is the number of nodes in the tree.
 - To keep things simple, I'm handling errors by throwing. I appreciate that there are other error handling approaches.
 - You might notice that the second commit is not attributed to my account/profile. This is because the email in my git config was not set. I've set it when I realized.   
